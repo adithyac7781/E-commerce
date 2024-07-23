@@ -11,12 +11,12 @@ body{
     font-size: small;
 }
 
-#ecom{
+.ecom{
     width:200px;
     height:48px;
 }
 
-#formm{
+.formm{
     display: flex;
     justify-content: space-between;
 }
@@ -75,13 +75,16 @@ body{
     padding-left: 350px;
 }
 
-#btn{
+.btn{
     width:88px;
     height:48px;
     border-radius: 25px;
     color:white;
     background-color: #EB6D20;
     border:none;
+}
+.hidden-btn{
+    display: none;
 }
 
 .account, .shopping{
@@ -291,7 +294,7 @@ body{
 }
 
 
-.circle-head{
+.circle-head1, .circle-head2, .circle-head3{
     position: absolute;
     top:0;
     left:0;
@@ -587,6 +590,7 @@ body{
     margin-right:100px;
     display:flex;
     position: relative;
+    border-radius:5px;
 }
 .banner-txt{
     color:#FFFFFF;
@@ -703,6 +707,438 @@ body{
 #terms{
     color:#EB8426;
 }
+.resp-footer{
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .sections{
+        display: none;
+    }
+    .img-row{
+        display:flex;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: center;
+
+    }
+    .img-row2{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: center;
+    }
+    .row3{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: center;
+
+    }
+
+    .row3 .circle-div1{
+        width:400px
+    }
+    .row3 .circle-div2{
+        width:400px
+    }
+    .row3 .circle-div3{
+        width:400px
+    }
+
+
+
+
+    .imageset{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: center;
+    }
+    .left, .right, .view, .left2 ,.right2{
+        display:none;
+    }
+
+    .r41, .r42, .r43, .r44, .r45, .r46, .r47, .r48{
+
+        margin-bottom: 30px;
+    }
+
+    .shopping-items, .shopping-items2{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: center;
+
+    }
+    .sub-headings{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content:center;
+
+    }
+    .row-4{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content:center;
+
+    }
+    .text{
+        display: none;
+    }
+    .bform{
+        width:150px;
+        height: 30px;
+        padding-top:10px;
+        margin-left: 20px;
+        margin-top:70px;
+        margin-right: 0px;
+    }
+    .c{
+        width:300px;
+        display: block;
+        padding-right:50px;
+    }
+    .banner-txt{
+        width:400px;
+        height:50px;
+    }
+    .subs{
+        width:350px;
+        margin-left: -0px;
+        margin-top:20px;
+    }
+    .footer{
+        justify-content: center;
+        width:60%;
+
+
+    }
+    
+
+
+   
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+    .img-row{
+        display:block;
+        margin-left:-50px;
+    }
+    .image-banner{
+        margin-bottom: 25px;
+    }
+    .body{
+        width:100px;
+    }
+    
+    .dropdown, .at, .st,.btn{
+        display: none;
+    }
+    .search{
+        width:450px;
+        height:30px;
+        align-items: center;
+    }
+
+    .input-search{
+        display: block;
+    }
+    .top{
+        padding-left: 20px;
+    }
+
+    .sections{
+        display: none;
+    }
+    .formm{
+        display: block;
+    }
+    .search-icon{
+        margin-left: -70px;
+    }
+
+    .ap{
+        margin-top: -80px;
+        margin-left:350px
+    }
+    .sp{
+        margin-top:-81px;
+    }
+    .img-row2{
+        display:block;
+    }
+    .chair-div, .p2, .p3, .p4{
+        width:400px;
+        margin-left: -50px;
+        margin-bottom: 25px;
+    }
+    .chair-img, .p2-img, .p3-img, .p4-img{
+        padding: 85px;
+    }
+
+    .row3{
+        display:block;
+    }
+    .circle-div1, .circle-div2, .circle-div3{
+        width:400px;
+        height:300px;
+        margin-left: -50px;
+        margin-bottom: 25px;
+        position: relative;
+    }
+    .circle-head1{
+        position: absolute;
+        padding-top:155px;
+        padding-left:130px;
+        text-align: center;
+    }
+    .circle-head2{
+        position: absolute;
+        padding-top:150px;
+        padding-left:110px;
+        text-align: center;
+    }
+    .circle-head3{
+        position: absolute;
+        padding-top:150px;
+        padding-left:155px;
+        text-align: center;
+    }
+
+
+
+    .circle-img{
+        position:absolute;
+        padding-right: 150px;
+        padding-top:30px;
+
+
+    }
+    .circle-txt{
+        position: absolute;
+        bottom: 0;
+        left:0;
+        padding-left: 90px;
+        padding-bottom: 10px;
+        text-align: center;
+
+    }
+    .polka{
+        width:400px;
+        margin-left: -50px;
+        margin-bottom: 25px;
+
+    }
+
+    .left,.right, .view{
+        display:none;
+    }
+    .imageset{
+        display:block;
+    }
+    .r41, .r42, .r43, .r44, .r45, .r46, .r47, .r48{
+        width:130px;
+        margin-left: 125px;
+        margin-bottom: 45px;
+        padding-right: -200px;
+
+    }
+    .discover{
+        width:400px;
+        margin-left: -50px;
+        margin-bottom: 25px;
+
+    }
+    .left2, .right2{
+        display: none;
+    }
+    .shopping-items{
+        display: block;
+        width:400px;
+        margin-left: 125px;
+        margin-bottom:25px;
+    }
+    .item-div{
+        margin-bottom:25px;
+    }
+
+    .sub-headings{
+        display: block;
+        width:400px;
+        margin-left: -120px;
+        margin-bottom: 25px;
+
+    }
+    .row-4{
+        display: block;
+    }
+    .shoe{
+        margin-left: -20px;
+        padding-bottom: 25px;
+
+    }
+    .stand, .iphone, .facewash{
+        margin-bottom: 25px;
+        margin-left: -10px;
+    }
+
+    .shopping-items2{
+        display: block;
+    
+        margin-left: 25px;
+        margin-bottom:25px;
+    }
+    .item-div2{
+        margin-bottom: 25px;
+    }
+    .banner{
+        width:400px; 
+        height: 300px;
+        margin-left:40px;  
+        padding-right: 25px;
+        margin-left: 30px;     
+    }
+    
+    .bform{
+        width:150px;
+        height: 30px;
+        padding-top:10px;
+        margin-left: 20px;
+        margin-top:70px;
+        margin-right: 0px;
+    }
+    .c{
+        width:300px;
+        display: block;
+        padding-right:50px;
+    }
+    .banner-txt{
+        width:400px;
+        height:50px;
+    }
+    .subs{
+        width:350px;
+        margin-left: -0px;
+        margin-top:20px;
+    }
+
+    .text{
+        display:none;
+    }
+    .commerce{
+        height:70px;
+        text-align: center;
+        padding-top: 35px;
+        padding-right:25px;
+    }
+    .footer, .end{
+        display: none;
+    }
+
+    .resp-footer{
+        display: block;
+    }
+
+    .drop1{
+        margin-top: 30px;
+        background-color:#F5F6F8;
+        border-radius: 50px;
+        width:400px;
+        border: none;
+        height: 48px;
+    
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+
+    }
+    .dropy{
+        background-color:#F5F6F8;
+        border-radius: 50px;
+        width:400px;
+        border: none;
+        height: 48px;
+        margin-top: 10px;;
+        padding-left: 20px;
+        margin-left: 50px;
+
+    }
+    .dropx{
+        margin-top: 30px;
+        background-color:#F5F6F8;
+        border-radius: 50px;
+        width:400px;
+        border: none;
+        height: 48px;
+    
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .drop2{
+        background-color:#EB8426;
+        border-radius: 50px;
+        width:400px;
+        border: none;
+        height: 48px;
+        color: white;
+        padding-left: 20px;
+        margin-left: 50px;
+    }
+    .resp-footer p{
+        padding-left: 70px;
+        padding-top: 20px;
+        border-bottom: 1px solid #E9E9E9
+    }
+
+    .icons2{
+        padding-left: 90px;
+        display: flex;
+        margin-top:10px;
+
+    }
+    .icons2 div{
+        padding-left: 15px;
+        margin-left: 20px;
+    }
+    .bot-txt{
+        padding-left: 65px;
+    }
+    }
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    
+
 
 
 
