@@ -11,10 +11,11 @@ body{
     font-size: small;
 }
 
-.ecom{
-    width:200px;
-    height:48px;
+.photo{
+    display: none;
 }
+
+
 
 .formm{
     display: flex;
@@ -83,9 +84,7 @@ body{
     background-color: #EB6D20;
     border:none;
 }
-.hidden-btn{
-    display: none;
-}
+
 
 .account, .shopping{
     display: flex;
@@ -712,6 +711,8 @@ body{
 }
 
 @media screen and (max-width: 1200px){
+    
+    
     .sections{
         display: none;
     }
@@ -812,20 +813,70 @@ body{
     }
     .footer{
         justify-content: center;
-        width:60%;
+        width:100%;
+        margin-left: -100px;
 
 
     }
+    .footer-side2, .footer-side3, .footer-side4, .footer-side5{
+        margin-left: 100px;
     
+    }
 
 
    
+
+   
+   .dropdown{
+    height: 20px;
+   }
+   .formm{
+    display: block;
+   }
+   .btn{
+    width:200px;
+    height: 40px;
+    margin-top: 5px;
+    display: none;
+   }
+   .search-icon{
+    margin-left: 375px;
+   }   
+   .top{
+    display: block;
+    }
+   
+    .dropdown{
+    height: 30px;;
+    }
+    .search{
+        width:1100px;
+        height:40px;
+        align-items: center;
+    }
+
+    .input-search{
+        display: block;
+    }
+
+    .top{
+        padding-left: 20px;}
+
+    .at{
+        margin-top: -80px;
+
+        }
+    .ap{
+        margin-top: -80px;
+        padding-left: 850px;
+        }
+
+    .sp,.st{
+        margin-top:-81px;
+        }
+
+   
 }
-
-
-
-
-
 
 
 
@@ -857,7 +908,6 @@ body{
     .top{
         padding-left: 20px;
     }
-
     .sections{
         display: none;
     }
@@ -869,8 +919,8 @@ body{
     }
 
     .ap{
-        margin-top: -80px;
-        margin-left:350px
+        margin-top: -81px;
+        margin-left:-500px
     }
     .sp{
         margin-top:-81px;
@@ -1100,7 +1150,7 @@ body{
     .resp-footer p{
         padding-left: 70px;
         padding-top: 20px;
-        border-bottom: 1px solid #E9E9E9
+        border-bottom: 1px solid #E9E9E9;  
     }
 
     .icons2{
