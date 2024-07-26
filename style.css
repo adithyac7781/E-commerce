@@ -1,4 +1,4 @@
-.top{
+.header-top{
     font-size: 10px;
     background-color:#FFF9F3;
     color:#ed4a05;
@@ -22,7 +22,7 @@ body{
     justify-content: space-between;
 }
 
-.top h2{
+.header-top h2{
     color:#3E3E3E;
 }
 
@@ -37,7 +37,7 @@ body{
     font-weight: lighter;
 }
 
-#wed{
+.wed{
    color:#EB6D20; 
    border-bottom:solid 4px #EB8426; 
     
@@ -859,7 +859,7 @@ body{
         display: block;
     }
 
-    .top{
+    .header-top{
         padding-left: 20px;}
 
     .at{
@@ -905,7 +905,7 @@ body{
     .input-search{
         display: block;
     }
-    .top{
+    .header-top{
         padding-left: 20px;
     }
     .sections{
