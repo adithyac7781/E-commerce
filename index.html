@@ -6,6 +6,7 @@
         document.addEventListener("cookieyes_banner_load", (eventData) => {
           if(cookieyes._ckyStore._bannerConfig.respectGPC && !!navigator.globalPrivacyControl){
               console.log("hoi");
+              document.querySelector(".cky-consent-container").style.display="none";
           }
             });
         </script>
